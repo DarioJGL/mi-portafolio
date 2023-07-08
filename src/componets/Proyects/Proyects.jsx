@@ -23,55 +23,55 @@ export function Proyects () {
       <p id='text-proyects-sg'>Scroll right to see more projects.</p>
       <div className='container-proyects'>
         <div className={`control-div ${screenWidth <= 749 ? 'espacio' : ''}`} onClick={moveLeft}>
-          <img className='control left' src='../../../public/Arrow-left.svg' alt='' />
+          <img className='control left' src='Arrow-left.svg' alt='' />
         </div>
         <div className='slider'>
 
           <Proyect
             className='item'
-            img='../../../../public/fondo_home.jpg'
+            img='fondo_home.jpg'
             title='Titulo'
             linkGithub='https://github.com/DarioJGL'
             linkPage='https://www.linkedin.com/in/dariojgl/'
           />
           <Proyect
             className='item'
-            img='../../../../public/fondo_home.jpg'
+            img='fondo_home.jpg'
             title='Titulo'
             linkGithub='https://github.com/DarioJGL'
             linkPage='https://www.linkedin.com/in/dariojgl/'
           />
           <Proyect
             className='item'
-            img='../../../../public/fondo_home.jpg'
+            img='fondo_home.jpg'
             title='Titulo'
             linkGithub='https://github.com/DarioJGL'
             linkPage='https://www.linkedin.com/in/dariojgl/'
           />
           <Proyect
             className='item'
-            img='../../../../public/fondo_home.jpg'
+            img='fondo_home.jpg'
             title='Titulo'
             linkGithub='https://github.com/DarioJGL'
             linkPage='https://www.linkedin.com/in/dariojgl/'
           />
           <Proyect
             className='item'
-            img='../../../../public/fondo_home.jpg'
+            img='fondo_home.jpg'
             title='Titulo'
             linkGithub='https://github.com/DarioJGL'
             linkPage='https://www.linkedin.com/in/dariojgl/'
           />
           <Proyect
             className='item'
-            img='../../../../public/fondo_home.jpg'
+            img='fondo_home.jpg'
             title='Titulo'
             linkGithub='https://github.com/DarioJGL'
             linkPage='https://www.linkedin.com/in/dariojgl/'
           />
         </div>
         <div className='control-div' onClick={moveRight}>
-          <img className='control right' src='../../../public/Arrow_right.svg' alt='' />
+          <img className='control right' src='Arrow_right.svg' alt='' />
         </div>
       </div>
       <script src='./scroll.js' />

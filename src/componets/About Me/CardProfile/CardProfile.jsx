@@ -4,7 +4,7 @@ import './CardProfile.css'
 export function CardProfile () {
   const handleDownload = () => {
     const link = document.createElement('a')
-    link.href = '../../../public/Curriculum_DevJr.pdf'
+    link.href = 'Curriculum_DevJr.pdf'
     link.download = 'Curriculum Dario'
     link.click()
   }
@@ -15,14 +15,14 @@ export function CardProfile () {
         <p className='card-profile__profesion'>Frontend Developer</p>
       </div>
       <div className='div-logos'>
-        <a className='fondo-logo' href='https://github.com/DarioJGL'><img className='img-logo' src='../../../public/github-142-svgrepo-com.svg' alt='github-logo' /></a>
+        <a className='fondo-logo' href='https://github.com/DarioJGL'><img className='img-logo' src='github-142-svgrepo-com.svg' alt='github-logo' /></a>
 
-        <a className='fondo-logo' href='https://www.linkedin.com/in/dariojgl1102/'><img className='img-logo' src='../../../public/linkedin-svgrepo-com.svg' alt='github-logo' /></a>
+        <a className='fondo-logo' href='https://www.linkedin.com/in/dariojgl1102/'><img className='img-logo' src='linkedin-svgrepo-com.svg' alt='github-logo' /></a>
       </div>
       <div className='div-contact'>
         <div className='div-contact__card'>
           <div className='div-icon'>
-            <img className='img-logo__contact' src='../../../public/email.svg' alt='email' />
+            <img className='img-logo__contact' src='email.svg' alt='email' />
           </div>
           <div>
             <h4>Correo</h4>
@@ -32,7 +32,7 @@ export function CardProfile () {
         <div className='line' />
         <div className='div-contact__card'>
           <div className='div-icon'>
-            <img className='img-logo__contact' src='../../../public/telephone.svg' alt='telefono' />
+            <img className='img-logo__contact' src='telephone.svg' alt='telefono' />
           </div>
           <div>
             <h4>Telefono</h4>

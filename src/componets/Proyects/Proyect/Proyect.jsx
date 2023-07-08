@@ -20,9 +20,9 @@ export function Proyect ({ img, title, linkGithub, linkPage }) {
         onMouseLeave={handleMouseLeave} src={img} alt=''
       />
       <div className='div-logos-proyect'>
-        <a className='fondo-logo' href={linkGithub}><img className='img-logo' src='../../../public/github-142-svgrepo-com.svg' alt='github-logo' /></a>
+        <a className='fondo-logo' href={linkGithub}><img className='img-logo' src='github-142-svgrepo-com.svg' alt='github-logo' /></a>
 
-        <a className='fondo-logo' href={linkPage}><img className='img-logo' src='../../../public/linkedin-svgrepo-com.svg' alt='github-logo' /></a>
+        <a className='fondo-logo' href={linkPage}><img className='img-logo' src='linkedin-svgrepo-com.svg' alt='github-logo' /></a>
       </div>
     </div>
   )
