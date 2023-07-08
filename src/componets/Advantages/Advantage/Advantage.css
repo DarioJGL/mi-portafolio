@@ -1,0 +1,37 @@
+.advantage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.advantage-container img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px rgb(13, 158, 115);
+    transition: all 0.3s ease-in-out;
+}
+
+.advantage-container h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 0.7rem;
+    color: var(--font-main-color);
+    border-radius: 10px 10px 0 0;
+}
+
+.advantage-container p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0.7rem;
+    color: var(--font-main-color);
+    border-radius: 10px 10px 0 0;
+    max-width: 300px;
+}

@@ -1,0 +1,30 @@
+#Advantages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-advantages {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(326px, 1fr));
+    grid-gap: 4rem;
+    padding: auto;
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 1500px) {
+    .container-advantages {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 500px) {
+    .advantage-container {
+        width: 100%;
+    }
+    .advantage-container img {
+        max-width: 300px;
+        height: 300px;
+    }
+    .advantage-container p {
+        max-width: 300px;
+    }
+}

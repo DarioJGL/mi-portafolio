@@ -1,0 +1,140 @@
+#Proyects {
+    height: 600px;
+}
+.espacio {
+    margin: 1rem;
+}
+.title-proyects {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container-proyects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: auto;
+}
+.slider {
+    width: 640px;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.proyect {
+    margin: 1rem;
+}
+.control {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--third-color);
+    border: 1px solid var(--font-main-color);
+    cursor: pointer;
+    object-fit: cover;
+    z-index: 9996;
+}
+.control-div {
+    cursor: pointer;
+}
+.container-proyects .left {
+    left: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+.container-proyects .right {
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.slider::-webkit-scrollbar {
+    display: none;
+}
+#text-proyects-sg {
+    display: none;
+}
+@media screen and (min-width: 1500px) {
+    #Proyects {
+        height: 88vh;
+    }
+    .proyect {
+        min-width: 1000px;
+    }
+    .slider {
+        width: 1040px;
+        height: 820px;
+    }
+    .proyect h3 {
+        font-size: 2rem;
+    }
+    .img-logo {
+        background-color: var(--second-color);
+        padding: 0.5rem;
+        margin: 2rem;
+        border-radius: 10px;
+        transition: all ease-in-out 0.5s;
+        scale: 1.4;
+    }
+    .img-logo:hover {
+        background-color: var(--third-color);
+        scale: 1.7;
+    }
+}
+@media screen and (max-width: 750px) {
+    #Proyects {
+        height: 420px;
+    }
+    .proyect {
+        min-width: 340px;
+    }
+    .slider {
+        width: 100%;
+        height: 100%;
+    }
+    .proyect h3 {
+        font-size: 1.5rem;
+    }
+    .control-div {
+        display: none;
+    }
+    .control {
+        display: none;
+    }
+    .slider::-webkit-scrollbar {
+        display: block;
+        height: 10px;
+        border-radius: 10px;
+    }
+
+    #Proyects:hover #text-proyects-sg {
+        display: block;
+        transition: all ease-in 3s;
+        background-color: rgba(0, 0, 0, 0.63);
+        border-radius: 10px;
+        padding: 0.5rem;
+        margin: 0 2rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .proyect {
+        min-width: 300px;
+    }
+    .slider {
+        width: 100%;
+        height: 100%;
+    }
+    .proyect h3 {
+        font-size: 1.5rem;
+    }
+    .control-div {
+        display: none;
+    }
+    .control {
+        display: none;
+    }
+}
