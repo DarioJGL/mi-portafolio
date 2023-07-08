@@ -9,3 +9,9 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
+
+@media (width >= 1500px) {
+    .footer {
+        margin-top: 1rem;
+    }
+}
