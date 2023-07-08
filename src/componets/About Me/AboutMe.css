@@ -1,14 +1,6 @@
 #about-me {
-    background-image: url(fondo_aboutme.jpg);
-    background-color: rgba(0, 0, 0, 0.7);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 86vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
 .card-profile {
     transition: all ease-in-out 0.4s;
 }
