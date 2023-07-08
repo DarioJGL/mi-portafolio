@@ -12,7 +12,7 @@ export function Header () {
 
   return (
     <header>
-      <div className='div-img'><img src='../../../public/DevDarioJGL-logo.svg' alt='Logo' /></div>
+      <div className='div-img'><img src='DevDarioJGL-logo.svg' alt='Logo' /></div>
       <div className='div-list'>
         <nav className='list-nav'>
           <ul className='botones'>
