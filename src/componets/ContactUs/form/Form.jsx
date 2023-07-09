@@ -7,6 +7,7 @@ import { OkForm } from '../Ok-Form/Ok-form'
 export function Form ({ onCloseForm }) {
   const form = useRef()
   const [sent, setSent] = useState(false)
+  const [formCompleted, setFormCompleted] = useState(false)
 
   const toggleSent = () => {
     setSent(!sent)
@@ -14,6 +15,21 @@ export function Form ({ onCloseForm }) {
 
   const toggleForm = () => {
     onCloseForm()
+  }
+
+  const handleInputChange = () => {
+    // Verificar si el formulario está completo
+    const inputs = form.current.querySelectorAll('input, textarea')
+    let isFormCompleted = true
+
+    inputs.forEach(input => {
+      if (input.value.trim() === '') {
+        isFormCompleted = false
+        return
+      }
+    })
+
+    setFormCompleted(isFormCompleted)
   }
 
   const sendEmail = (e) => {
@@ -40,17 +56,17 @@ export function Form ({ onCloseForm }) {
           </div>
           <div className='container-input'>
             <label htmlFor='description'>Description</label>
-            <textarea required name='message' className='description input' cols='30' rows='10' placeholder='Ej: We want to contact you for a project that is interested in your way of working' />
+            <textarea required name='message' className='description input' cols='30' rows='10' placeholder='Ej: We want to contact you for a project that is interested in your way of working' onChange={handleInputChange}/>
           </div>
           <div className='div-button__form'>
-            <Button text='Submit' type='submit' onclick={toggleSent} />
+            <Button text='Submit' type='submit' onclick={toggleSent} disabled={!formCompleted} />
             <Button text='Close Form' onclick={toggleForm} />
           </div>
 
         </div>
       </form>
 
-      {sent && <OkForm onClose={onCloseForm} />}
+      {sent && formCompleted && <OkForm onClose={onCloseForm} />}
 
     </>
 

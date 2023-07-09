@@ -29,7 +29,7 @@ export function Header () {
           {isOpen &&
             <div className='overlay'>
               <ul className='navbar-menu'>
-                <li><a className='link-phone' onClick={handleToggle} href=''>Home</a></li>
+                <li><a className='link-phone' onClick={handleToggle} href='#'>Home</a></li>
                 <li><a className='link-phone' onClick={handleToggle} href='#Proyects'>Proyects</a></li>
                 <li><a className='link-phone' onClick={handleToggle} href='#Advantages'>Advantages</a></li>
                 <li><a className='link-phone' onClick={handleToggle} href='#Contact-me'>Contact Me</a></li>

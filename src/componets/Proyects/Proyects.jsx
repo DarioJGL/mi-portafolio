@@ -29,10 +29,17 @@ export function Proyects () {
 
           <Proyect
             className='item'
-            img='fondo_home.jpg'
-            title='Titulo'
-            linkGithub='https://github.com/DarioJGL'
-            linkPage='https://www.linkedin.com/in/dariojgl/'
+            img='newton-en-accion.png'
+            title='Newton En Accion'
+            linkGithub='https://github.com/DarioJGL/NewtonEnAccion'
+            linkPage='https://dariojgl.github.io/NewtonEnAccion/'
+          />
+          <Proyect
+            className='item'
+            img='sudoku.png'
+            title='Sudoku'
+            linkGithub='https://github.com/DarioJGL/Sudoku'
+            linkPage='https://dariojgl.github.io/Sudoku/'
           />
           <Proyect
             className='item'
@@ -41,34 +48,7 @@ export function Proyects () {
             linkGithub='https://github.com/DarioJGL'
             linkPage='https://www.linkedin.com/in/dariojgl/'
           />
-          <Proyect
-            className='item'
-            img='fondo_home.jpg'
-            title='Titulo'
-            linkGithub='https://github.com/DarioJGL'
-            linkPage='https://www.linkedin.com/in/dariojgl/'
-          />
-          <Proyect
-            className='item'
-            img='fondo_home.jpg'
-            title='Titulo'
-            linkGithub='https://github.com/DarioJGL'
-            linkPage='https://www.linkedin.com/in/dariojgl/'
-          />
-          <Proyect
-            className='item'
-            img='fondo_home.jpg'
-            title='Titulo'
-            linkGithub='https://github.com/DarioJGL'
-            linkPage='https://www.linkedin.com/in/dariojgl/'
-          />
-          <Proyect
-            className='item'
-            img='fondo_home.jpg'
-            title='Titulo'
-            linkGithub='https://github.com/DarioJGL'
-            linkPage='https://www.linkedin.com/in/dariojgl/'
-          />
+          
         </div>
         <div className='control-div' onClick={moveRight}>
           <img className='control right' src='Arrow_right.svg' alt='' />

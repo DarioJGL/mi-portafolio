@@ -22,7 +22,7 @@ export function Proyect ({ img, title, linkGithub, linkPage }) {
       <div className='div-logos-proyect'>
         <a className='fondo-logo' href={linkGithub}><img className='img-logo' src='github-142-svgrepo-com.svg' alt='github-logo' /></a>
 
-        <a className='fondo-logo' href={linkPage}><img className='img-logo' src='linkedin-svgrepo-com.svg' alt='github-logo' /></a>
+        <a className='fondo-logo' href={linkPage}><img className='img-logo' src='link-page.svg' alt='link-logo' /></a>
       </div>
     </div>
   )
