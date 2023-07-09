@@ -50,6 +50,8 @@
     margin: 2rem;
     border-radius: 10px;
     transition: all ease-in-out 0.5s;
+    width: 35px;
+    height: 35px;
 }
 .img-logo:hover {
     background-color: var(--third-color);
