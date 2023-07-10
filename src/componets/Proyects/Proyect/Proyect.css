@@ -16,7 +16,9 @@
 }
 .fondo-proyect {
     width: 100%;
-    height: 340px;
+    aspect-ratio: 16/9;
+    display: block;
+    object-fit: cover;
     border-radius: 10px;
     background-size: cover;
 }
