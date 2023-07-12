@@ -43,10 +43,10 @@ export function Proyects () {
           />
           <Proyect
             className='item'
-            img='fondo_home.jpg'
+            img='react-shop.png'
             title='Titulo'
-            linkGithub='https://github.com/DarioJGL'
-            linkPage='https://www.linkedin.com/in/dariojgl/'
+            linkGithub='https://github.com/DarioJGL/react-shop'
+            linkPage='https://dariojgl.github.io/react-shop/'
           />
           
         </div>
