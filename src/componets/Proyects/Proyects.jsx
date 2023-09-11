@@ -44,7 +44,7 @@ export function Proyects () {
           <Proyect
             className='item'
             img='react-shop.png'
-            title='Titulo'
+            title='React Shop'
             linkGithub='https://github.com/DarioJGL/react-shop'
             linkPage='https://dariojgl.github.io/react-shop/'
           />
