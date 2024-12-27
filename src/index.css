@@ -1,0 +1,55 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    --main-color: #080a14;
+    --second-color: #261172;
+    --third-color: #0d9e73;
+    --third-color-darker: #0a7e5d;
+    --font-main-color: #eaedf7;
+    background-color: var(--main-color);
+    --button-base: #0c151c;
+    --background-body: #202b38;
+    --button-hover: #040a0f;
+    --scrollbar-thumb: var(--button-hover);
+    --scrollbar-thumb-hover: rgb(0, 0, 0);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+#root {
+    padding: 0;
+    max-width: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--background-body);
+}
+
+/* Estilo de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+    background-color: var(--button-base);
+    border-radius: 10px;
+}
+
+/* Estilo de la punta de la barra de desplazamiento */
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--button-hover);
+}
+
+/* Estilo cuando se está arrastrando la barra de desplazamiento */
+::-webkit-scrollbar-thumb:active {
+    background-color: #111111;
+}

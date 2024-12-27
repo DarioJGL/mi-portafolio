@@ -1,0 +1,71 @@
+.card-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    width: 340px;
+    height: 451px;
+    padding: 1.7rem;
+    padding-top: 2rem;
+    margin-right: 3rem;
+}
+.card-profile__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 246px;
+}
+.card-profile__title {
+    color: var(--font-main-color);
+    font-size: 2rem;
+
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+}
+.card-profile__profesion {
+    color: #8e919a;
+    font-weight: bold;
+}
+
+.img-logo {
+    background-color: var(--second-color);
+    padding: 0.5rem;
+    margin: 2rem;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+}
+.img-logo:hover {
+    background-color: var(--third-color);
+    scale: 1.1;
+}
+.div-contact {
+    display: grid;
+    width: 100%;
+}
+.div-contact__card {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 100%;
+    text-align: start;
+}
+.div-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.img-logo__contact {
+    background-color: var(--second-color);
+    padding: 0.5rem;
+    border-radius: 35px;
+}
+.line {
+    border-top: 1px solid var(--font-main-color);
+    margin: 0.5rem 0;
+    width: 100%;
+}
